@@ -9,13 +9,15 @@ body {
     box-sizing: border-box;
 }
 
-#fullWebsite {
-    border: 1px solid rgb(32, 33, 49);
+.centerWrap {
     max-width: 1140px;
     margin: 0 auto;
     width: 80%;
-    padding: 0 20px;
-    height: 100%;
+}
+
+#headerSection {
+    padding: 5px 20px;
+    background: #000;
 }
 
 #logoImage {
@@ -31,4 +33,5 @@ body {
     display: inline-block;
     color: #fff;
     font-size: 16px;
+    padding: 40px 20px;
 }
