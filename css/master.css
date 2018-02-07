@@ -37,20 +37,8 @@ body {
     padding: 40px 20px;
 }
 
-.boxSection {
-    background-color: #fff;
-    padding: 15px;
-    float: left;
-    position: relative;
-}
-
-.boxImg {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.boxImg img {
-    width: 100%;
+#bodySection {
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .col-1 {
@@ -73,6 +61,25 @@ body {
     width: 20%;
 }
 
+.boxSection {
+    background-color: #fff;
+    padding: 15px;
+    float: left;
+    position: relative;
+}
+
+.boxImg {
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    max-height: 350px;
+    overflow: hidden;
+}
+
+.boxImg img {
+    width: 100%;
+}
+
 .sectionTitle {
     font-size: 24px;
     color: #fff;
@@ -82,17 +89,31 @@ body {
 .sectionContent {
     width: 80%;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 40px;
+    top: 60px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.sectionContent h2 {
+    font-size: 20px;
 }
 
 #videos {
     background-image: url(/sggwebsite/images/videos.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 350px;
 }
 
+#calendar img {
+    filter: brightness(28%);
+}
+
+#videos img {
+    filter: brightness(28%);
+}
 
 @media (max-width: 800px) {
     .col-2 {
