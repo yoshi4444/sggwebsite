@@ -32,6 +32,10 @@ body {
     float: right;
 }
 
+#mobileToggle {
+    display: none;
+}
+
 .menuBtn {
     display: inline-block;
     color: #fff;
@@ -171,7 +175,7 @@ body {
         display: block;
         color: #fff;
         float: right;
-        padding: 40px 20px;
+        padding: 40px 0px;
         font-size: 24px;
     }
     .col-2 {
