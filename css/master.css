@@ -159,13 +159,13 @@ body {
     float: left;
     padding: 15px;
     background: #333;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
 }
 
 .adminImg {
     float: left;
-    height: 50px;
+    height: 100px;
     padding: 0 10px;
 }
 
@@ -176,11 +176,11 @@ body {
 .adminTitle {
     float: left;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .adminTitle span {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @media (max-width: 1025px) {
