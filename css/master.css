@@ -1,0 +1,22 @@
+body {
+    background-image: url('image/destiny_bg.jpg');
+    background-size: cover;
+    background-color: rgb(32, 33, 49);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#fullWebsite {
+    background-color: rgb(32, 33, 49);
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#logoImage {
+    height: 100px;
+    float: left;
+}
