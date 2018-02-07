@@ -49,6 +49,12 @@ body {
     padding: 0 15px 15px;
     margin-top: 250px;
     margin-bottom: 50px;
+    color: #fff;
+}
+
+ol {
+    background: #333;
+    padding: 45px;
 }
 
 .col-1 {
