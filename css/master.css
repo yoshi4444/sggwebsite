@@ -273,7 +273,7 @@ body {
 
 @media (max-width: 550px) {
     .sectionContent h2 img {
-        padding-left: 10px;
+        padding-right: 10px;
     }
     .col-4 {
         width: 100%;
