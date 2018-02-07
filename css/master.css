@@ -168,7 +168,7 @@ body {
         right: 0;
     }
     .menuBtn {
-        display: inline;
+        display: block;
         text-align: center;
     }
     #mobileToggle {
