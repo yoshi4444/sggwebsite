@@ -39,6 +39,8 @@ body {
 
 #bodySection {
     background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+    margin-top: 350px;
 }
 
 .col-1 {
@@ -62,7 +64,6 @@ body {
 }
 
 .boxSection {
-    background-color: #fff;
     padding: 15px;
     float: left;
     position: relative;
@@ -93,6 +94,8 @@ body {
     top: 60px;
     color: #fff;
     font-size: 14px;
+    text-shadow: 2px 2px #000;
+    line-height: 30px;
 }
 
 .sectionContent h2 {
@@ -113,6 +116,20 @@ body {
 
 #videos img {
     filter: brightness(28%);
+}
+
+#googleCalendar {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+#googleCalendar iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
 
 @media (max-width: 800px) {
