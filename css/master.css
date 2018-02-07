@@ -140,6 +140,21 @@ body {
     top: 0;
 }
 
+.youtubeVideo {
+    position: relative;
+    height: 300px;
+    float: left;
+    padding: 0 15px;
+}
+
+.youtubeVideo iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 @media (max-width: 1025px) {
     body {
         background-attachment: inherit;
