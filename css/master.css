@@ -176,6 +176,7 @@ body {
 
 .adminText {
     float: left;
+    width: calc(100% - 125px)
 }
 
 .adminTitle {
