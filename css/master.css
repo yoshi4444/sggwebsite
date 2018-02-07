@@ -162,6 +162,7 @@ body {
     background: #333;
     font-size: 14px;
     color: #fff;
+    min-height: 300px;
 }
 
 .adminImg {
