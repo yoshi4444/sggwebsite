@@ -138,6 +138,31 @@ body {
 @media (max-width: 800px) {
     body {
         background-attachment: inherit;
+        overflow-x: hidden;
+        transition: 0.4s ease-in-out all;
+    }
+    body.click {
+        margin-left: -200px;
+    }
+    #headerSection {
+        position: fixed;
+    }
+    #mainNav {
+        position: fixed;
+        right: -200px;
+        width: 200px;
+        height: 100%;
+        transition: 0.4s ease-in-out all;
+    }
+    #mainNav.click {
+        right: 0;
+    }
+    #mobileToggle {
+        display: block;
+        color: #fff;
+        float: right;
+        padding: 40px 20px;
+        font-size: 24px;
     }
     .col-2 {
         width: 100%;
