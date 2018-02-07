@@ -155,6 +155,34 @@ body {
     top: 0;
 }
 
+.adminBox {
+    float: left;
+    padding: 15px;
+    background: #333;
+    font-size: 12px;
+    color: #fff;
+}
+
+.adminImg {
+    float: left;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.adminImg img {
+    height: 100%;
+}
+
+.adminTitle {
+    float: left;
+    color: #fff;
+    font-size: 18px;
+}
+
+.adminTitle span {
+    font-size: 14px;
+}
+
 @media (max-width: 1025px) {
     body {
         background-attachment: inherit;
