@@ -158,9 +158,14 @@ body {
         height: 100%;
         transition: 0.4s ease-in-out all;
         top: 0;
+        background: #000;
     }
     #mainNav.click {
         right: 0;
+    }
+    .menuBtn {
+        display: inline;
+        text-align: center;
     }
     #mobileToggle {
         display: block;
