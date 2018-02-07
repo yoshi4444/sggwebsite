@@ -57,6 +57,10 @@ ol {
     padding: 45px;
 }
 
+li {
+    padding: 10px 0;
+}
+
 .col-1 {
     width: 100%;
 }
